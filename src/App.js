@@ -1,5 +1,4 @@
 import { useState } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import './Main.css';
 import { Container, Menu } from "semantic-ui-react";
@@ -83,7 +82,6 @@ function App() {
           <SiteInfo />
         </Main>
         <Footer>
-          <img className="App-logo" src={logo} />
           <Copyright />
         </Footer>
       </Container>
