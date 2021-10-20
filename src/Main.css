@@ -1,0 +1,9 @@
+body {
+    background: lightgrey;
+}
+
+html, #root, body, .App, .container { height: 100%;}
+.container {
+    box-shadow: 0px 1px 5px black;
+    height: 100%;
+}
