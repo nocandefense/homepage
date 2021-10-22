@@ -1,0 +1,28 @@
+import Header from './components/Header';
+import Nav from './components/Nav';
+import Main from './components/Main';
+import SiteInfo from "./components/SiteInfo";
+import Copyright from './components/Copyright';
+import Footer from './components/Footer';
+
+function App() {
+    return (
+        <div className="App bg-dark-pink text-white h-full">
+
+          <Header>
+            <Nav />
+          </Header>
+
+          <Main>
+            <SiteInfo />
+          </Main>
+
+          <Footer>
+            <Copyright />
+          </Footer>
+          
+        </div>
+    );
+}
+
+export default App;
