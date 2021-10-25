@@ -1,18 +1,23 @@
 import Header from './components/Header';
 import Nav from './components/Nav';
 import Main from './components/Main';
-import SiteInfo from "./components/SiteInfo";
 import Copyright from './components/Copyright';
 import Footer from './components/Footer';
+import { Routes, Route } from "react-router-dom";
+import About from './components/About';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App bg-dark-pink text-white h-full lg:w-3/6 p-4 mx-auto">
+    <div className="App bg-gray-400 text-white h-full lg:w-3/6 p-4 mx-auto">
       <Header>
         <Nav />
       </Header>
       <Main>
-        <SiteInfo />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
       </Main>
       <Footer>
         <Copyright />

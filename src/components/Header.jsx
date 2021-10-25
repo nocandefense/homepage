@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 function Header({ children }) {
     return (
         <header>
-            <h1 className="text-white text-5xl text-center">brockcallahan.com</h1>
+            <Link to="/"><h1 className="text-white text-5xl text-center">brockcallahan.com</h1></Link>
             {children}
         </header>
     );
