@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 function Nav() {
-    const menuItems = ["home", "about", "notes", "projects", "games",
+    const menuItems = ["about", "notes", "projects", "games",
         "contact"];
     return (
         <nav className="bg-transparent p-2 m-7 h-full rounded-md border-4">
