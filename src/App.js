@@ -8,6 +8,7 @@ import About from './components/About';
 import Home from './components/Home';
 import Games from './components/Games';
 import { Helmet } from "react-helmet";
+import payphone from './img/pay-phone.png';
 
 function App() {
   return (
@@ -19,10 +20,8 @@ function App() {
       </Helmet>
       <div className="App h-full lg:w-3/6 p-4 mx-auto">
         <Header />
-        <Main>
-        </Main>
         <Footer>
-          <p>* Under construction.</p>
+          <p className="animate-ping grid place-items-center h-screen">* Under construction.</p>
         </Footer>
       </div>
     </>
