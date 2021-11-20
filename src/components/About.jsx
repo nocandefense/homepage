@@ -1,8 +1,7 @@
 function About() {
     return (
         <div>
-            <h2>About</h2>
-            <p>Me.</p>
+            <p>This website sucks.</p>
         </div>
     )
 }
