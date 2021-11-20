@@ -10,7 +10,7 @@ import Games from './components/Games';
 
 function App() {
   return (
-    <div className="App bg-gray-400 text-white h-full lg:w-3/6 p-4 mx-auto">
+    <div className="App h-full lg:w-3/6 p-4 mx-auto">
       <Header>
         <Nav />
       </Header>
