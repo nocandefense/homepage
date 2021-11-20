@@ -8,7 +8,8 @@ module.exports = {
       },
       fontFamily: {
         'display': ['Comforter Brush'],
-        'tech': ['IBM Plex Mono']
+        'tech': ['IBM Plex Mono'],
+        'retro': ['"Press Start 2P"']
       }
     },
   },
