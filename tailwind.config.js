@@ -6,6 +6,10 @@ module.exports = {
       backgroundImage: {
         "dark-pink": "url('img/photo-dark-pink-unsplash.jpg')"
       },
+      fontFamily: {
+        'display': ['Comforter Brush'],
+        'tech': ['IBM Plex Mono']
+      }
     },
   },
   variants: {

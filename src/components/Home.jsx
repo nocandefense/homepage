@@ -1,7 +1,7 @@
 function Home() {
     return (
         <div>
-            <p>This page is under construction.</p>
+            <p>This site is under construction.</p>
         </div>
     )
 }

@@ -7,24 +7,32 @@ import { Routes, Route } from "react-router-dom";
 import About from './components/About';
 import Home from './components/Home';
 import Games from './components/Games';
+import { Helmet } from "react-helmet";
 
 function App() {
   return (
-    <div className="App h-full lg:w-3/6 p-4 mx-auto">
-      <Header>
-        <Nav />
-      </Header>
-      <Main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/games" element={<Games />} />
-        </Routes>
-      </Main>
-      <Footer>
-        <Copyright />
-      </Footer>
-    </div>
+    <>
+      <Helmet>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&family=IBM+Plex+Mono:wght@200&display=swap" rel="stylesheet" />
+      </Helmet>
+      <div className="App h-full lg:w-3/6 p-4 mx-auto">
+        <Header>
+          <Nav />
+        </Header>
+        <Main>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/games" element={<Games />} />
+          </Routes>
+        </Main>
+        <Footer>
+          <Copyright />
+        </Footer>
+      </div>
+    </>
   );
 }
 
