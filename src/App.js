@@ -4,9 +4,6 @@ import Main from './components/Main';
 import Copyright from './components/Copyright';
 import Footer from './components/Footer';
 import { Routes, Route } from "react-router-dom";
-import About from './components/About';
-import Home from './components/Home';
-import Games from './components/Games';
 import { Helmet } from "react-helmet";
 import payphone from './img/pay-phone.png';
 
@@ -21,7 +18,7 @@ function App() {
       <div className="App h-full lg:w-3/6 p-4 mx-auto">
         <Header />
         <Footer>
-          <p className="animate-ping grid place-items-center h-screen">* Under construction.</p>
+          <p className="animate-ping grid place-items-bottom h-screen">* Under construction.</p>
         </Footer>
       </div>
     </>
